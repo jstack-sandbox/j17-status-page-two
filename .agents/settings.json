@@ -1,0 +1,30 @@
+{
+  "jstack": {
+    "version": "1.4.0",
+    "checksum": "sha256:7c56b03281b1c181fa0ec2a84d7e0f3342beb1f2531a3a7058843cac229bc3ff"
+  },
+  "owners": {
+    "owner": "jstack-sandbox-owner"
+  },
+  "profiles": {
+    "lang-a": {},
+    "runner-a": {}
+  },
+  "required_checks": {
+    "jstack/facts": {
+      "producer": {
+        "app": "jstack"
+      }
+    },
+    "jstack/lock": {
+      "producer": {
+        "app": "jstack"
+      }
+    },
+    "jstack/review": {
+      "producer": {
+        "app": "jstack"
+      }
+    }
+  }
+}
