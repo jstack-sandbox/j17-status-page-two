@@ -11,7 +11,17 @@
     "runner-a": {}
   },
   "required_checks": {
-    "spelling": {
+    "jstack/facts": {
+      "producer": {
+        "app": "jstack"
+      }
+    },
+    "jstack/lock": {
+      "producer": {
+        "app": "jstack"
+      }
+    },
+    "jstack/review": {
       "producer": {
         "app": "jstack"
       }
